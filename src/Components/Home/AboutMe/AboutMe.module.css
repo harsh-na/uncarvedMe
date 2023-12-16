@@ -1,0 +1,80 @@
+
+.section{
+    background-color: var(--about-back-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5vw;
+    padding-top: 4rem;
+}
+.heading{
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50vw;
+}
+.rightContainer{
+    width: 50vw;
+    font-size: min(1.2rem, 2vw);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-left: 1px solid whitesmoke;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+.logo{
+    color: white;
+    margin-right: 2rem;
+    font-size: 2.5vw;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resumeButton{
+    font-family: 'Poppins', sans-serif !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+@media only screen and (max-width: 800px) {
+    .section{
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+    .heading{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 2rem;
+        line-height: 4rem;
+    }
+    .socialContainer{
+        margin: 1rem;
+    }
+    .rightContainer{
+        width: 100%;
+        text-align: justify;
+        border-left: none;
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .typing{
+        font-size: 1.5rem !important;
+        line-height: 3rem !important;
+    }
+    .logo{
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+}

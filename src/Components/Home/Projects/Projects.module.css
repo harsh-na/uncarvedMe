@@ -1,0 +1,27 @@
+.section{
+    background-color: var(--projects-back-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 6vw;
+    /* line-height: 7vw; */
+    display: flex;
+    margin: 1rem 0rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .heading{
+        font-size: 2rem;
+    }
+}

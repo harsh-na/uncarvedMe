@@ -1,0 +1,44 @@
+.section{
+    background-color: var(--education-back-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 6vw;
+    line-height: 7vw;
+    grid-area: h;
+    display: flex;
+    flex-direction: column;
+}
+.heading span{
+    font-size: 1.5vw;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: c;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 800px){
+    .section{
+        flex-direction: column;
+    }
+    .heading{
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    .heading div{
+        margin-right: 0.7rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .heading span{
+        font-size: 0.9rem;
+    }
+
+}

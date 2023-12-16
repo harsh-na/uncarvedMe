@@ -1,0 +1,8 @@
+.copyright{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--education-back-color);
+    padding: 0.5rem;
+}

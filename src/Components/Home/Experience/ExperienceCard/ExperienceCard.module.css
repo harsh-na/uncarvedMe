@@ -1,0 +1,86 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.outerCard{
+    width: 32rem;
+    padding: 1rem;
+    box-shadow: none !important;
+    border-radius: 0rem !important;
+    margin: 1rem 0rem;
+    border-radius: 0rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255 , 0.2);
+    width: 32rem;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    padding: 1rem;
+}
+.heading{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.matter{
+    font-size: 1rem; 
+    width: 24rem;
+}
+.tech{
+    margin: 0.3rem;
+    color: gray;
+}
+.techUsed{
+    display: flex;
+    flex-direction: row;
+}
+.expand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details{
+    padding: 0rem 1rem;
+}
+.details li{
+    font-size: 0.8rem;
+}
+@media only screen and (max-width: 600px){
+    
+    .outerCard{
+        width: 90vw;
+    }   
+    .card{
+        width: 90vw;
+    }
+    .logo img{
+        width: 4rem;
+        height: 4rem;
+        padding-left: 0rem;
+    }
+    .matter{
+        width: 70vw;
+        font-size: 0.8rem;
+    }
+    .cardActions{
+        padding: 0rem;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    
+}
