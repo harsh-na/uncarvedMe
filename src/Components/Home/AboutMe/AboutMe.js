@@ -32,7 +32,7 @@ const AboutMe = (props) => {
     },
   ];
   const resumeLink =
-    "https://drive.google.com/file/d/1HOAFZBcTFhR-v4LkiZM3OuHU0cQ-67Bh/view?usp=drive_link";
+    "https://drive.google.com/file/d/1_tTW5Q0iBOQZ_fYse6nFSLZGszABrgZ2/view?usp=sharing";
   useEffect(() => {
     AOS.init({delay: 100,});
   }, [])
